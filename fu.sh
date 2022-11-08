@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-for file in *.c
+for file in *
 do
 	vi +':w ++ff=unix' +':q' "$file"
 done
